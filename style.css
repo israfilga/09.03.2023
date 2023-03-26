@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+}
+.box {
+  margin: 50px;
+}
+.text,.text_desc {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+.text_desc {
+    margin-top: 5px;
+    background-color: whitesmoke;
+  display: none;
+}
+.text_onclick {
+  border: dotted;
+}
+.text_desc_onclick {
+  display: block;
+}
